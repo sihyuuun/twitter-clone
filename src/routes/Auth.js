@@ -20,7 +20,7 @@ const Auth = () => {
       <form onSubmit={onSubmit}>
         <input
           name="email"
-          type="text"
+          type="email"
           placeholder="Email"
           required
           value={email}
